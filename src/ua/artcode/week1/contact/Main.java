@@ -8,7 +8,6 @@ public class Main {
     // user
     public static void main(String[] args) {
 
-        Contact contact1 = null;
 
         ContactList contactList = new ContactList();
 

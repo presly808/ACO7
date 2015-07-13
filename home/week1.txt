@@ -1,0 +1,52 @@
+OOP Homework 1.
+
+0. Week topics
+
+    Primitive and Reference types
+
+        OOP
+            Class(methods, fields) -> Object
+
+        see how to use (methods) of
+        String  http://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+        Scanner http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html
+
+    Dubug mode in IDEA
+    http://www.pythontutor.com/visualize.html#mode=edit
+
+    Try to draw and describe each line of code
+
+
+    !!! Debug or visualize classwork code(comment each line), after that write steps for homework and implement
+
+1. Create an application for company management.
+	Employee: name, salary, address, sex, age, working experience (in months)
+	Company: name, address, number of employees, list of employees
+	Address: Country, city, street, building
+
+	Application should look as a console menu. When application starts, user should see list of possible commands, which are numerated.
+  User chooses menu item, after that he sees result of chosen operation.
+  Application should work as long as user desires.
+
+	List of possible commands:
+	1. Read about company
+	2. View list of employees
+	3. View employees, which work more than year.
+	4. View employees, which are girls and live in Kiev
+	5. Add an employee
+	6. Fire an employee
+	7*. Fire an employee, with salary less then 1000 and which works less then year
+	8*. Change an employee information
+	9*. View list of employees: first women and then men
+	10*. Employee has a hire date(implement class java.util.Date)
+	11*. View employees, which works between 100 and 200 hours (use Date)
+
+	* - additional task(optional)
+
+
+3. Literature
+    		6.1. Кэти Сьерра, Берт Бейтс. "Head First Java / Изучаем Java"  http://rutracker.org/forum/viewtopic.php?t=4212262
+    		6.2. Шилдт Г. "Java. Полное руководство"  						http://padabum.com/d.php?id=17386
+    		6.3. Кей Хорстманн, Гари Корнелл - Java 2. Том 1 				http://www.ex.ua/8600905
+    		6.4. Брюс Эккель. "Философия Java"                              http://www.ex.ua/4884921
+    		6.5. OCJP 7 													http://it-ebooks.info/book/2095/
